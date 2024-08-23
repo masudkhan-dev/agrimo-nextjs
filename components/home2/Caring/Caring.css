@@ -1,0 +1,25 @@
+/* caring page list style */
+
+.lst {
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+.lst li {
+  position: relative;
+  padding-left: 26px;
+  color: #404a3e;
+}
+
+.lst li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1em;
+  height: 1em;
+  background-image: url("../../../public/home2-asset/tik.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

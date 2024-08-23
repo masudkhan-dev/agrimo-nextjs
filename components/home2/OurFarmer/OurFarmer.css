@@ -1,0 +1,13 @@
+.disc {
+  position: relative;
+  padding-left: 16px;
+}
+
+.disc::before {
+  content: "•";
+  color: #5c8b54;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  font-size: 22px;
+}
